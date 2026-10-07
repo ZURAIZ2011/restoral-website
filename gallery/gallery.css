@@ -1,0 +1,583 @@
+/* Reset basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Header Container */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+/* Navbar Layout */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 100px;
+  
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #eeb033;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+/* Navigation Links List */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.nav-links a.active, 
+.nav-links a:hover {
+  color: #eeb033;
+}
+
+
+.phone-number:hover{
+  color: #eeb033;
+}
+.logo:hover{
+  color: #eeb033;
+}
+
+
+/* Contact Info (Phone) */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone-icon {
+  font-size: 30px;
+  color: #eeb033;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+}
+
+
+/* hero */
+.hero {
+  background-image: url(galleryimg/pexels-filirovska-7140277.jpg);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: white;
+padding-top: 150px;
+}
+.homehero{
+  color: white;
+}
+
+.home{
+  color: #eeb033;
+  font-size: 20px;
+}
+.home:hover{
+  color: white;
+}
+
+ .upwardarrow{
+   background-color: #eeb033;
+   text-align: center;
+   border: 0;
+   border-radius: 50%;
+   height: 60px;
+   font-weight: 30px;
+   padding: 15px;
+   margin-left: 1250px;
+   position: sticky;
+   top: 500px;
+   bottom: 100px;
+ }
+
+
+
+
+/* products  */
+.products{
+    text-align: center;
+padding: 30px;
+
+}
+
+#items{
+margin: 15px;
+}
+#items:hover{
+  width: 30%;
+  height: 300px;
+}
+
+/* footer  */
+.footer{
+  
+  background-color: black;
+width:100%;
+height: 500px;
+display: flex;
+justify-content: space-between;
+gap: 30px;
+padding-top: 70px;
+}
+.box1{
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  margin-left: 100px;
+  width: 400px;
+}
+.box2{
+  margin-left: 50px;
+   padding-top: 20px;
+  padding-left: 10px;
+
+  width: 400px;
+  
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  
+}
+.openinghours{
+  color: white;
+  line-height: 3;
+}
+#time{
+  font-size: 15px;
+  color: grey;
+}
+.box3{
+  margin-right: 80px;
+   padding-top: 20px;
+  padding-left: 10px;
+  width: 400px;
+  font-size: xx-large;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  
+}
+.footerpara{
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+.box1info{
+  font-size: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+#footerinfoheading{
+  color: white;
+}
+.newsform{
+    display: flex;
+    gap: 30px;
+  }
+#email{
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 20px;
+ width: 200px;
+  font-size: 20px;
+}
+#subscribe{
+  justify-content: center;
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+ width: 150px;
+  font-size: 20px;
+  background-color: rgb(218, 70, 70);
+  color: white;
+  align-items: center;
+}
+#follow{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.ending{
+  background-color: #333333;
+}
+
+#hovericon{
+  font-size: 20px;
+}
+#hovericon:hover{
+  color: #eeb033;
+}
+
+#footerpoints{
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.ending{
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+ padding: 30px;
+ color: grey;
+ display: flex;
+ justify-content: space-between;
+
+}
+#privacy{
+  color: grey;
+}
+#endingicon{
+
+  margin-right: 80px;
+}
+
+
+
+#footerinfoheading:hover{
+
+  color: #eeb033;
+}
+.footerpara:hover{
+  color: #eeb033;
+}
+span:hover{
+  color: #eeb033;
+}
+#time:hover{
+  color: #eeb033;
+}
+#privacy:hover{
+  color: #eeb033;
+}
+#title:hover{
+  color: #eca618;
+}
+
+
+
+
+/* =========================================
+   RESPONSIVE CSS — MAX WIDTH 400px
+   ========================================= */
+
+@media screen and (max-width: 400px) {
+
+  /* ---------- GLOBAL ---------- */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  /* ---------- HEADER ---------- */
+
+  .header {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .logo-icon {
+    width: 27px;
+    height: 27px;
+    font-size: 17px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    padding: 5px 6px;
+  }
+
+  .contact-info {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .phone-icon {
+    font-size: 20px;
+  }
+
+  .phone-number {
+    font-size: 14px;
+  }
+
+
+  /* ---------- HERO ---------- */
+
+  .hero {
+    width: 100%;
+    height: 280px;
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .homehero h1 {
+    font-size: 32px;
+  }
+
+  .homehero p {
+    font-size: 16px;
+  }
+
+  .home {
+    font-size: 16px;
+  }
+
+
+  /* ---------- UP ARROW ---------- */
+
+  .upwardarrow {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    top: auto;
+    margin-left: 0;
+    z-index: 1000;
+
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+  }
+
+
+  /* ---------- PRODUCTS ---------- */
+
+  .products {
+    width: 100%;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    text-align: center;
+  }
+
+  #items {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    object-fit: cover;
+  }
+
+  #items:hover {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* ---------- FOOTER ---------- */
+
+  .footer {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 40px 20px;
+  }
+
+
+  /* ---------- FOOTER BOX 1 ---------- */
+
+  .box1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+  }
+
+  .footerpara {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 15px;
+  }
+
+  .box1info {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+
+  /* ---------- FOOTER BOX 2 ---------- */
+
+  .box2 {
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+  }
+
+  #footerpoints {
+    font-size: 24px;
+  }
+
+  .openinghours {
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 20px;
+  }
+
+  #time {
+    font-size: 14px;
+  }
+
+
+  /* ---------- FOOTER BOX 3 ---------- */
+
+  .box3 {
+    width: 100%;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 28px;
+  }
+
+  .newsform {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  
+  #email {
+    width: 60%;
+    min-width: 0;
+    height: 45px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  #subscribe {
+    width: 40%;
+    min-width: 0;
+    height: 45px;
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  #follow {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  #icons {
+    display: flex;
+    gap: 18px;
+  }
+
+  #hovericon {
+    font-size: 18px;
+  }
+
+
+  /* ---------- COPYRIGHT ---------- */
+
+  .ending {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  #endingicon {
+    margin-right: 0;
+    display: flex;
+    gap: 15px;
+  }
+
+}

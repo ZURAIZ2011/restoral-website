@@ -1,0 +1,1173 @@
+/* Reset basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Header Container */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+/* Navbar Layout */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 100px;
+
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #eeb033;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+/* Navigation Links List */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #eeb033;
+}
+
+
+.phone-number:hover {
+  color: #eeb033;
+}
+
+.logo:hover {
+  color: #eeb033;
+}
+
+
+/* Contact Info (Phone) */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone-icon {
+  font-size: 30px;
+  color: #eeb033;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+}
+
+
+
+
+
+.menuimg {
+  background-image: url(../assets/Gemini_Generated_Image_24mw1w24mw1w24mw.jfif);
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+
+}
+
+.menupara {
+  margin-left: 650px;
+  font-family: sans-serif;
+}
+
+
+.twenty {
+  color: #eeb033;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.hundred {
+  font-size: 40px;
+  color: #eeb033;
+  font-weight: 900;
+}
+
+.sixtyfour {
+  font-size: 40px;
+  color: #eeb033;
+  font-weight: 900;
+}
+
+
+
+.menubutton {
+  margin-left: 700px;
+  margin-top: 40px;
+}
+
+#seemenu {
+  background-color: rgb(231, 94, 94);
+  width: 50px;
+  height: 30px;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#seemenu:hover {
+  background-color: #eeb033;
+}
+
+
+.upwardarrow {
+  background-color: #eeb033;
+  text-align: center;
+  border: 0;
+  border-radius: 50%;
+  height: 60px;
+  font-weight: 30px;
+  padding: 15px;
+  margin-left: 1250px;
+  position: sticky;
+  top: 500px;
+  bottom: 100px;
+}
+
+/* hero */
+.hero {
+  background-image: url(aboutimg/pexels-filirovska-7140277.jpg);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+
+#home {
+  color: #eeb033;
+  font-size: 20px;
+}
+
+#home:hover {
+  color: white;
+}
+
+.ourstory {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.year1 {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  margin-left: 630px;
+  margin-right: 630px;
+  height: 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.firststory {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image1info {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.year2 {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  margin-left: 630px;
+  margin-right: 630px;
+  height: 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.secondstory {
+  display: flex;
+  justify-content: space-around;
+}
+
+.year3 {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  margin-left: 630px;
+  margin-right: 630px;
+  height: 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.thirdstory {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+/* chefs  */
+
+.teamchefs {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.chefs {
+  text-align: center;
+  display: flex;
+}
+
+#photo {
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+
+}
+
+.orni {
+  font-size: 20px;
+  margin-left: 130px;
+  height: 500px;
+  width: 300px;
+
+}
+
+.robinson {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 130px;
+}
+
+.rabina {
+  font-size: 20px;
+  width: 300px;
+  margin-left: 130px;
+}
+
+#title {
+  color: orange;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+#chefstitle {
+  color: grey;
+  line-height: 3;
+}
+
+.media {
+  font-size: 30px;
+
+}
+
+.meidaicon {
+  border: 2px solid yellow;
+  border-radius: 50%;
+
+}
+
+
+
+/* partners  */
+.partner {
+  text-align: center;
+  height: 450px;
+  line-height: 2;
+
+}
+
+.Partnerheading {
+  font-size: 50px;
+}
+
+#partnersubtitle {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+#partnerslogo {
+  width: 100%;
+  height: 150px;
+}
+
+/* pictures */
+.pictures {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#pics {
+  width: 25%;
+  height: 300px;
+}
+
+
+/* footer  */
+.footer {
+
+  background-color: black;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 70px;
+}
+
+.box1 {
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.box2 {
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-left: 10px;
+
+  width: 400px;
+
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+
+}
+
+.openinghours {
+  color: white;
+  line-height: 3;
+}
+
+#time {
+  font-size: 15px;
+  color: grey;
+}
+
+.box3 {
+  margin-right: 80px;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 400px;
+  font-size: xx-large;
+  color: white;
+  display: inline-block;
+  text-align: left;
+
+}
+
+.footerpara {
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+
+.box1info {
+  font-size: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+
+#footerinfoheading {
+  color: white;
+}
+
+.newsform {
+  display: flex;
+  gap: 30px;
+}
+
+#email {
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#subscribe {
+  justify-content: center;
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+  width: 150px;
+  font-size: 20px;
+  background-color: rgb(218, 70, 70);
+  color: white;
+  align-items: center;
+}
+
+#follow {
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.ending {
+  background-color: #333333;
+}
+
+#hovericon {
+  font-size: 20px;
+}
+
+#hovericon:hover {
+  color: #eeb033;
+}
+
+#footerpoints {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.ending {
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+  padding: 30px;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#privacy {
+  color: grey;
+}
+
+#endingicon {
+
+  margin-right: 80px;
+}
+
+
+#footerinfoheading:hover {
+
+  color: #eeb033;
+}
+
+.footerpara:hover {
+  color: #eeb033;
+}
+
+#time:hover {
+  color: #eeb033;
+}
+
+#privacy:hover {
+  color: #eeb033;
+}
+
+#title:hover {
+  color: #eca618;
+}
+
+
+
+
+/* =========================================
+   RESPONSIVE ABOUT PAGE
+   MAX WIDTH: 400px
+   ========================================= */
+
+@media screen and (max-width: 400px) {
+
+  /* =========================
+       GLOBAL
+       ========================= */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  /* =========================
+       HEADER
+       ========================= */
+
+  .header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    padding: 15px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
+
+  .logo-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 17px;
+  }
+
+  .nav-links {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 11px;
+    padding: 5px 6px;
+  }
+
+  .contact-info {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+  }
+
+  .phone-icon {
+    font-size: 20px;
+  }
+
+  .phone-number {
+    font-size: 14px;
+  }
+
+
+  /* =========================
+       HERO
+       ========================= */
+
+  .hero {
+    width: 100%;
+    height: 280px;
+
+    padding-top: 100px;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  #heropara {
+    font-size: 14px;
+  }
+
+  #home {
+    font-size: 16px;
+  }
+
+  .hero pre {
+    white-space: normal;
+  }
+
+
+  /* =========================
+       ABOUT RESTORAL SECTION
+       ========================= */
+
+  .menuimg {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+
+    padding: 45px 20px;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .menupara {
+    width: 100%;
+    margin-left: 0 !important;
+
+    text-align: center;
+  }
+
+  .menupara h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .menupara p {
+    font-size: 14px !important;
+    line-height: 1.7;
+  }
+
+  .menupara br {
+    display: none;
+  }
+
+
+  /* Numbers */
+
+  .menupara pre {
+    width: 100%;
+
+    margin-top: 30px !important;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    
+  }
+
+  .twenty{
+    font-size: 28px;
+    margin-left: 30px;
+  }
+  .hundred{
+    font-size: 28px;
+    margin-left: 70px;
+  }
+  .sixtyfour {
+    font-size: 28px;
+    margin-left: 70px;
+  }
+
+
+  /* Number labels */
+
+  .menuimg>pre {
+    width: 100%;
+
+    margin-left: 0 !important;
+    margin-top: 15px !important;
+
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    font-size: 8px;
+
+    
+    
+  }
+
+  .menuimg>pre span {
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .pizzamade,
+  .clientseveryday {
+    margin-left: 0 !important;
+  }
+
+
+  /* Menu button */
+
+  .menubutton {
+    width: 100%;
+
+    margin-left: 0 !important;
+    margin-top: 35px;
+
+    text-align: center;
+  }
+
+  #seemenu {
+    display: inline-block;
+
+    width: auto;
+    height: auto;
+
+    padding: 13px 22px;
+
+    font-size: 13px;
+  }
+
+
+  /* =========================
+       UP ARROW
+       ========================= */
+
+  .upwardarrow {
+    position: fixed;
+
+    right: 15px;
+    bottom: 20px;
+
+    top: auto;
+    margin-left: 0;
+
+    width: 45px;
+    height: 45px;
+
+    padding: 13px;
+
+    z-index: 9999;
+  }
+
+
+  /* =========================
+       OUR STORY
+       ========================= */
+
+  .ourstory {
+    width: 100%;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    font-size: 30px;
+
+    text-align: center;
+  }
+
+
+  /* Years */
+
+  .year1,
+  .year2,
+  .year3 {
+    width: 30%;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    height: 40px;
+    line-height: 40px;
+
+    font-size: 22px;
+
+    margin-bottom: 30px;
+  }
+
+  .year2,
+  .year3 {
+    margin-top: 45px ;
+  }
+
+
+  /* Story rows */
+
+  .firststory,
+  .secondstory,
+  .thirdstory {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
+  }
+
+
+  /* Story images */
+
+  .image1,
+  .image2,
+  .image3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .image1 img,
+  .image2 img,
+  .image3 img {
+    width: 100%;
+    max-width: 300px;
+
+    height: 220px;
+
+    object-fit: cover;
+  }
+
+
+  /* Story text */
+
+  .image1info,
+  .image2info,
+  .image3info {
+    width: 100%;
+
+    margin-top: 25px;
+
+    text-align: center;
+  }
+
+  .image1info h3,
+  .image2info h3,
+  .image3info h3 {
+    font-size: 25px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .image1info p,
+  .image2info p,
+  .image3info p {
+    font-size: 14px;
+
+    line-height: 1.7;
+  }
+
+  .image1info br,
+  .image2info br,
+  .image3info br {
+    display: none;
+  }
+
+
+  /* =========================
+       TEAM CHEFS
+       ========================= */
+
+  .teamchefs {
+    width: 100%;
+
+    margin-top: 70px;
+    margin-bottom: 40px;
+
+    font-size: 32px;
+
+    text-align: center;
+  }
+
+  .chefs {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 50px;
+  }
+
+  .orni,
+  .robinson,
+  .rabina {
+    width: 100%;
+    height: auto;
+
+    margin-left: 0 !important;
+
+    text-align: center;
+  }
+
+  #photo {
+    width: 230px;
+    height: 230px;
+
+    object-fit: cover;
+  }
+
+  #title {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  #chefstitle {
+    font-size: 15px;
+    line-height: 2.5;
+  }
+
+  .media {
+    font-size: 22px;
+  }
+
+  .mediaicon {
+    display: inline-block;
+  }
+
+
+  /* =========================
+       PARTNERS
+       ========================= */
+
+  .partner {
+    width: 100%;
+    height: auto;
+
+    padding: 50px 15px;
+
+    line-height: 1.7;
+
+    text-align: center;
+  }
+
+  .Partnerheading {
+    font-size: 32px;
+  }
+
+  #partnersubtitle {
+    font-size: 14px;
+
+    margin-bottom: 25px;
+  }
+
+  #partnersubtitle br {
+    display: none;
+  }
+
+  #partnerslogo {
+    width: 100%;
+    height: auto;
+
+    max-height: 120px;
+
+    object-fit: contain;
+  }
+
+
+  /* =========================
+       FOOTER
+       ========================= */
+
+  .footer {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0;
+
+    padding: 40px 20px;
+  }
+
+
+  /* Footer Box 1 */
+
+  .box1 {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 28px;
+  }
+
+  .footerpara {
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin-top: 15px;
+  }
+
+  .box1info {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+
+  /* Footer Box 2 */
+
+  .box2 {
+    width: 100%;
+
+    margin: 30px 0 0 0;
+    padding: 0;
+
+    font-size: 28px;
+  }
+
+  #footerpoints {
+    font-size: 24px;
+  }
+
+  .openinghours {
+    font-size: 18px;
+    line-height: 2;
+
+    margin-top: 15px;
+  }
+
+  #time {
+    font-size: 14px;
+  }
+
+
+  /* Footer Box 3 */
+
+  .box3 {
+    width: 100%;
+
+    margin: 30px 0 0 0;
+    padding: 0;
+
+    font-size: 28px;
+  }
+
+  .newsform {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+  }
+
+  #email {
+    width: 50% !important;
+    height: 45px;
+
+    margin: 0 !important;
+
+    padding: 10px 18px;
+
+    font-size: 15px;
+  }
+
+  #subscribe {
+    width: 40%;
+
+    height: 45px;
+
+    margin: 0;
+
+    font-size: 16px;
+  }
+
+  #follow {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  #icons {
+    display: flex;
+    gap: 18px;
+  }
+
+  #hovericon {
+    font-size: 18px;
+  }
+
+
+  /* =========================
+       COPYRIGHT
+       ========================= */
+
+  .ending {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+
+    padding: 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+
+    text-align: center;
+
+    font-size: 13px;
+  }
+
+  #endingicon {
+    margin-right: 0;
+
+    display: flex;
+    gap: 15px;
+  }
+
+}

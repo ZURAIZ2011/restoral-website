@@ -1,0 +1,1331 @@
+/* Reset basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Header Container */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  
+}
+
+/* Navbar Layout */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 100px;
+ 
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #eeb033;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+/* Navigation Links List */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.nav-links a.active, 
+.nav-links a:hover {
+  color: #eeb033;
+}
+
+
+.phone-number:hover{
+  color: #eeb033;
+}
+.logo:hover{
+  color: #eeb033;
+}
+
+
+/* Contact Info (Phone) */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone-icon {
+  font-size: 30px;
+  color: #eeb033;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+}
+
+
+
+
+
+/* carosel  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#image1{
+  background-image:url(assets/ChatGPT\ Image\ Oct\ 6\,\ 2026\,\ 07_03_33\ PM.png);
+  width: 100%;
+  height: 600px;
+}
+
+#orderonlinecarosel:hover{
+  background-color: #eeb033;
+}
+
+#image2{
+  background-image: url(assets/ChatGPT\ Image\ Oct\ 6\,\ 2026\,\ 07_05_15\ PM.png);
+  width: 100%;
+  height: 600px;
+}
+#image3{
+  background-image:url(assets/ChatGPT\ Image\ Oct\ 6\,\ 2026\,\ 07_06_35\ PM.png);
+  width: 100%;
+  height: 600px;
+}
+.carousel {
+    width: 100%;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: opacity 0.7s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Arrows */
+
+.prev,
+.next {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, 0.45);
+    color: white;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition: 0.3s;
+}
+
+.prev {
+    left: 25px;
+}
+
+.next {
+    right: 25px;
+}
+
+.prev:hover,
+.next:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+
+/* Dots */
+
+.dots {
+    position: absolute;
+
+    bottom: 25px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    gap: 8px;
+
+    z-index: 10;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    opacity: 0.6;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.dot.active {
+    background: #e94b51;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+/* Mobile */
+
+@media (max-width: 400px) {
+
+    .carousel {
+        height: 350px;
+    }
+
+    .prev,
+    .next {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+.menuimg{
+  background-image:url(assets/Gemini_Generated_Image_24mw1w24mw1w24mw.jfif) ;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+
+}
+
+.menupara{
+  margin-left: 650px;
+  font-family:sans-serif;
+}
+
+
+.twenty{
+ color: #eeb033;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.hundred{
+  font-size: 40px;
+  color: #eeb033;
+  font-weight: 900;
+}
+.sixtyfour{
+  font-size: 40px;
+  color: #eeb033;
+  font-weight: 900;
+}
+
+
+
+.menubutton{
+  margin-left: 700px;
+  margin-top: 40px;
+}
+
+#seemenu{
+  background-color: rgb(231, 94, 94);
+  width: 50px;
+  height: 30px;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+#seemenu:hover{
+  background-color: #eeb033;
+}
+
+
+
+
+.quality{
+display: flex;
+justify-content: center;
+padding: 100px;
+gap: 50px;
+}
+#logos{
+  font-size: 50px;
+  margin: 10px;
+}
+.heading{
+  font-size: larger;
+  margin-bottom: 20px;
+  text-decoration: solid;
+}
+#para{
+  font-size: 13px
+}
+.delivery{
+  text-align: center;
+  height: 200px;
+  
+}
+.food{
+  text-align: center;
+   height: 200px;
+  
+}
+.experience{
+  text-align: center;
+   height: 200px;
+  
+}
+
+.dishes{
+  text-align: center;
+   height: 200px;
+  
+}
+
+
+.upwardarrow{
+  background-color: #eeb033;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 0;
+  padding: 10px;
+margin-left: 1250px;
+position: fixed;
+margin-left: 1250px;
+margin-top: 50%;
+}
+
+
+.menu{
+  width: 100%;
+  height: 700px;
+  text-align: center;
+}
+#saladmenu{
+ width: 90%; 
+  height: 600px;
+}
+.pizzaday{
+  width: 100%;
+  height: 500px;
+ background-image: url(freepizza5oct.jfif);
+ padding-top: 400px;
+}
+
+#orderonline{
+  background-color: rgb(231, 94, 94);
+  height: 40px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 15px;
+  padding: 15px 40px;
+  font-size: 15px;
+  margin-left: 750px;
+  text-decoration: none;
+  color: white;
+}
+
+#orderonline:hover{
+  background-color: #eca618;
+}
+
+
+.ourchefs{
+  text-align: center;
+  line-height: 5;
+  font-size: 50px;
+}
+
+.chefs{
+  text-align: center;
+  display: flex;
+}
+#photo{
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+ margin-bottom: 20px;
+}
+.orni{
+  font-size: 20px;
+  margin-left: 130px;
+  height: 500px;
+  width: 300px;
+  
+}
+.robinson{
+  font-size: 20px;
+  width: 300px;
+  margin-left: 130px;
+}
+.rabina{
+  font-size: 20px;
+  width: 300px;
+ margin-left: 130px;
+}
+#title{
+  color: orange;
+  font-weight: bolder;
+  line-height: 1;
+}
+#chefstitle{
+  color: grey;
+  line-height: 3;
+}
+.media{
+  font-size: 20px;
+  
+}
+ 
+
+
+
+.partner{
+  text-align: center;
+  height: 450px;
+  line-height: 2;
+
+}
+.Partnerheading{
+  font-size: 50px;
+}
+#partnersubtitle{
+  color: grey;
+  margin-bottom: 30px;
+}
+
+#partnerslogo{
+  width: 100%;
+  height: 150px;
+}
+
+/* pictures */
+.pictures{
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#pics{
+  width: 25%;
+  height: 300px;
+}
+#pics:hover{
+  height: 350px;
+  width: 30%;
+}
+
+
+
+/* testimonials  */
+
+#testers{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+#partnerspic{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+
+
+
+.testimonials{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 500px;
+  gap: 300px;
+}
+
+/* div 1  */
+.bestburgers{
+line-height: 2;
+}
+#testimonial1{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+/* div2 */
+.vegeterian{
+line-height: 2;
+}
+#testimonial2{
+   border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+/* div3 */
+.frenchfries{
+line-height: 2;
+}
+#testimonial3{
+   border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+
+
+
+/* footer  */
+.footer{
+  
+  background-color: black;
+width:100%;
+height: 550px;
+display: flex;
+justify-content: space-between;
+gap: 30px;
+padding-top: 70px;
+}
+.box1{
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  margin-left: 100px;
+  width: 400px;
+}
+.box1para{
+  padding-bottom: 0;
+}
+
+.box2{
+  margin-left: 50px;
+   padding-top: 20px;
+  padding-left: 10px;
+
+  width: 400px;
+  
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  
+}
+.openinghours{
+  color: white;
+  line-height: 3;
+}
+#time{
+  font-size: 15px;
+  color: grey;
+}
+.box3{
+  margin-right: 80px;
+   padding-top: 20px;
+  padding-left: 10px;
+  width: 400px;
+  font-size: xx-large;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  
+}
+.footerpara{
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+.box1info{
+  font-size: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+#footerinfoheading{
+  color: white;
+}
+.newsform{
+    display: flex;
+    gap: 30px;
+  }
+#email{
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 20px;
+ width: 200px;
+  font-size: 20px;
+}
+#subscribe{
+  justify-content: center;
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 10px;
+ width: 150px;
+  font-size: 20px;
+  background-color: rgb(218, 70, 70);
+  color: white;
+  align-items: center;
+}
+#follow{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.ending{
+  background-color: #333333;
+}
+
+#hovericon{
+  font-size: 20px;
+}
+#hovericon:hover{
+  color: #eeb033;
+}
+
+#footerpoints{
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.ending{
+  background-color: #333333;
+  width: 100%;
+  height: 50px;
+ padding: 30px;
+ color: grey;
+ display: flex;
+ justify-content: space-between;
+
+}
+#privacy{
+  color: grey;
+}
+#endingicon{
+
+  margin-right: 80px;
+}
+
+
+
+#footerinfoheading:hover{
+
+  color: #eeb033;
+}
+.footerpara:hover{
+  color: #eeb033;
+}
+span:hover{
+  color: #eeb033;
+}
+#time:hover{
+  color: #eeb033;
+}
+#privacy:hover{
+  color: #eeb033;
+}
+#title:hover{
+  color: #eca618;
+}
+
+
+
+
+
+/* =========================================
+   MOBILE RESPONSIVE CSS - MAX 400px
+   ========================================= */
+
+@media screen and (max-width: 400px) {
+
+  /* ---------- GLOBAL ---------- */
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+
+  /* ---------- HEADER ---------- */
+
+  .header {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .logo-icon {
+    width: 26px;
+    height: 26px;
+    font-size: 16px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .nav-links a {
+    font-size: 11px;
+    padding: 5px 4px;
+  }
+
+  .contact-info {
+    width: 100%;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .phone-icon {
+    font-size: 17px;
+  }
+
+  .phone-number {
+    font-size: 13px;
+  }
+
+
+  /* ---------- CAROUSEL ---------- */
+
+  .carousel {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #image1,
+  #image2,
+  #image3 {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Slide 1 */
+
+  #image1 h1:first-child {
+    margin: 70px 0 0 0 !important;
+    width: fit-content;
+    max-width: 100%;
+    padding: 5px 10px;
+    font-size: 22px;
+  }
+
+  #image1 h1:nth-child(2) {
+    margin: 20px 0 25px 0 !important;
+    font-size: 27px;
+    line-height: 1.2;
+  }
+
+  #image1 #orderonlinecarosel {
+    margin-left: 0 !important;
+    padding: 10px 18px !important;
+    font-size: 13px;
+  }
+
+
+  /* Slide 2 */
+
+  #image2 h2 {
+    margin: 70px 0 0 0 !important;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+
+  #image2 h1 {
+    margin-left: 0 !important;
+    font-size: 38px !important;
+    line-height: 1.1;
+  }
+
+  #image2 h1:nth-of-type(1) {
+    margin-top: 20px;
+  }
+
+
+  /* Slide 3 */
+
+  #image3 h2 {
+    margin: 70px 0 20px 0 !important;
+    font-size: 20px;
+  }
+
+  #image3 h1 {
+    margin-left: 0 !important;
+    font-size: 38px !important;
+    line-height: 1.1;
+  }
+
+  #image3 h3 {
+    margin-left: 0 !important;
+    font-size: 18px;
+  }
+
+
+  /* Carousel arrows */
+
+  .prev,
+  .next {
+    display: none;
+  }
+
+  .dots {
+    bottom: 15px;
+  }
+
+
+  /* ---------- ABOUT / MENU IMAGE ---------- */
+
+  .menuimg {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    padding: 40px 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .menupara {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .menupara h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .menupara p {
+    font-size: 13px !important;
+    line-height: 1.6;
+  }
+
+  .menupara p br {
+    display: none;
+  }
+
+  .menupara pre {
+    width: 100%;
+    margin: 25px 0 0 0 !important;
+    white-space: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .twenty,
+  .hundred,
+  .sixtyfour {
+    font-size: 27px;
+  }
+
+  .menuimg > pre {
+    width: 100%;
+    margin: 20px 0 !important;
+    padding: 0;
+    white-space: normal;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .menubutton {
+    width: 100%;
+    margin: 30px 0 0 0;
+    text-align: center;
+  }
+
+  #seemenu {
+    display: inline-block;
+    padding: 12px 22px;
+    width: auto;
+    height: auto;
+  }
+
+
+  /* ---------- QUALITY SECTION ---------- */
+
+  .quality {
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .delivery,
+  .food,
+  .experience,
+  .dishes {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #logos {
+    font-size: 40px;
+    margin: 5px;
+  }
+
+  .heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #para {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  #para br {
+    display: none;
+  }
+
+
+  /* ---------- UP ARROW ---------- */
+
+  .upwardarrow {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    margin: 0 !important;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* ---------- MENU ---------- */
+
+  .menu {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
+  #saladmenu {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  /* ---------- PIZZA DAY ---------- */
+
+  .pizzaday {
+    width: 100%;
+    height: 300px;
+    padding-top: 230px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  #orderonline {
+    display: inline-block;
+    margin-left: 0;
+    padding: 12px 25px;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+  }
+
+
+  /* ---------- CHEFS ---------- */
+
+  .ourchefs {
+    width: 100%;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 32px;
+    margin: 50px 0 30px;
+  }
+
+  .chefs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .orni,
+  .robinson,
+  .rabina {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  #photo {
+    width: 180px;
+    height: 180px;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  #title {
+    font-size: 22px;
+  }
+
+  #chefstitle {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .media {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+
+  /* ---------- PARTNERS ---------- */
+
+  .partner {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .Partnerheading {
+    font-size: 30px;
+  }
+
+  #partnersubtitle {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  #partnersubtitle br {
+    display: none;
+  }
+
+  #partnerslogo {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    object-fit: contain;
+  }
+
+
+  /* ---------- PICTURES ---------- */
+
+  .pictures {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+
+  #pics {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  #pics:hover {
+    width: 100%;
+    height: 180px;
+  }
+
+
+  /* ---------- TESTIMONIALS ---------- */
+
+  #testers {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0 30px;
+  }
+
+  #partnerspic {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    display: block;
+  }
+
+  .testimonials {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .bestburgers,
+  .vegeterian,
+  .frenchfries {
+    width: 100%;
+    line-height: 1.8;
+  }
+
+  #testimonial1,
+  #testimonial2,
+  #testimonial3 {
+    width: 350px;
+    height: 350px;
+  }
+
+
+  /* ---------- FOOTER ---------- */
+
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 45px 20px;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+  .box1para {
+    width: 100%;
+  }
+
+  .footerpara {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .box1info {
+    font-size: 14px;
+    line-height: 1.8;
+    overflow-wrap: break-word;
+  }
+
+  #footerpoints {
+    font-size: 22px;
+  }
+
+  .openinghours {
+    font-size: 20px !important;
+    line-height: 2;
+  }
+
+  #time {
+    font-size: 14px;
+  }
+
+
+  /* ---------- NEWSLETTER ---------- */
+
+  .newsform {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+  }
+
+  #email {
+    width: 60%;
+    min-width: 0;
+    height: 45px;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  #subscribe {
+    width: 40%;
+    min-width: 0;
+    height: 45px;
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  #follow {
+    font-size: 20px;
+  }
+
+
+  /* ---------- COPYRIGHT ---------- */
+
+  .ending {
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #endingicon {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+
+  /* ---------- EXTRA OVERFLOW PROTECTION ---------- */
+
+  img {
+    max-width: 100%;
+  }
+
+  pre {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+}

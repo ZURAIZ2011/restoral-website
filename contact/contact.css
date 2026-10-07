@@ -1,0 +1,924 @@
+/* Reset basic defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Header Container */
+.header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.02);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+/* Navbar Layout */
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  height: 100px;
+  
+}
+
+/* Logo Styles */
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #eeb033;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 0 2px;
+}
+
+/* Navigation Links List */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+.nav-links a.active, 
+.nav-links a:hover {
+  color: #eeb033;
+}
+
+
+.phone-number:hover{
+  color: #eeb033;
+}
+.logo:hover{
+  color: #eeb033;
+}
+
+
+/* Contact Info (Phone) */
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.phone-icon {
+  font-size: 30px;
+  color: #eeb033;
+}
+
+.phone-number {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+}
+
+
+
+
+/* hero */
+
+.hero {
+  background-image: url(contactimg/pexels-filirovska-7140277.jpg);
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  color: white;
+padding-top: 150px;
+}
+.homehero{
+  color: #eeb033;
+  font-size: 20px;
+}
+.homehero:hover{
+  color:white ;
+}
+
+/* body content  */
+.bodycontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.gettouch {
+  width: 70%;
+  height: 700px;
+
+  font-size: 14px;
+  padding: 30px;
+
+}
+
+#gettouchheading {
+  font-size: 32px;
+  font-weight: 800px;
+  text-align: center;
+}
+
+#touchpara {
+  color: grey;
+  text-align: center;
+}
+
+/* form  */
+
+.labels {
+  margin-bottom: 15px;
+}
+
+#firstlabel {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 320px;
+  color: grey;
+  border: 0;
+}
+
+#secondlabel {
+  border: 0;
+  font-size: 15px;
+  color: grey;
+}
+
+.inputs {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#firstname {
+
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  text-align: center;
+  border: 0;
+  text-align: left;
+  width: 350px;
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+#secondname {
+  font-size: 15px;
+  border-radius: 25px;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.13);
+  padding: 5px;
+  width: 350px;
+}
+
+
+.message {
+  width: 80%;
+  height: 300px;
+  border-radius: 25px;
+  border: 0;
+  background-color: rgba(128, 128, 128, 0.13);
+  color: grey;
+}
+
+.textareaclass{
+ font-size: 15px;
+ padding: 10px;
+ height: 100px;
+  width: 100%;
+  border: 0;
+ background-color: rgba(128, 128, 128, 0.13);
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.yourmessage{
+  color: grey;
+  font-size: 15px;
+  margin-left: 40px;
+  
+}
+
+
+.emaillabels {
+  margin-bottom: 15px;
+}
+
+#e-maillabel{
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 320px;
+  color: grey;
+  border: 0;
+}
+
+
+.emailinputs{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#email{
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  text-align: center;
+  border: 0;
+  text-align: left;
+  width: 350px;
+  height: 50px;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+ #sendmessage{
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  border: 0;
+  background-color:#eeb033a6;
+  height: 50px;
+  width: 350px;
+  color: white;
+} 
+
+
+
+#sendmessage:hover{
+background-color: #d89613;
+}
+
+
+
+
+
+
+.socialinformation {
+  width: 30%;
+  height: 700px;
+  margin-top: 30px;
+}
+
+#phonenum {
+  gap: 30px;
+}
+#phonenum:hover{
+  color: #eeb033;
+}
+
+
+
+#address:hover{
+  color: #eeb033;
+}
+
+
+.upwardarrow{
+   background-color: #eeb033;
+   border: 0;
+   border-radius: 50%;
+  margin-left: 1250px;
+  height: 40px;
+  width: 40px;
+  padding: 15px;
+  position: sticky;
+  top: 500px;
+  bottom: 100px;
+}
+
+
+
+
+
+
+/* footer  */
+.footer{
+  background-color: black;
+width:100%;
+height: 500px;
+display: flex;
+justify-content: space-between;
+gap: 30px;
+padding-top: 70px;
+
+}
+.box1{
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  margin-left: 100px;
+  width: 400px;
+}
+.box2{
+  
+  margin-left: 50px;
+   padding-top: 20px;
+  padding-left: 10px;
+
+  width: 400px;
+  
+  font-size: xx-large;
+  display: inline-block;
+  color: white;
+  
+}
+.openinghours{
+  color: white;
+  line-height: 3;
+}
+#time{
+  font-size: 15px;
+  color: grey;
+}
+.box3{
+  margin-right: 80px;
+   padding-top: 20px;
+  padding-left: 10px;
+  width: 400px;
+  font-size: xx-large;
+  color: white;
+  display: inline-block;
+  text-align: left;
+  
+}
+.footerpara{
+  font-weight: 100;
+  font-size: 20px;
+  color: grey;
+}
+.box1info{
+  font-size: 20px;
+  color: grey;
+  line-height: 1.5;
+}
+#footerinfoheading{
+  color: white;
+}
+.newsform{
+    display: flex;
+    gap: 20px;
+  
+  }
+#email{
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 20px;
+ width: 200px;
+  font-size: 20px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+#subscribe{
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 25px;
+  height: 50px;
+  border: 0;
+  padding: 15px;
+  padding: 10px 30px;
+ width: 150px;
+  font-size: 20px;
+  background-color: rgb(218, 70, 70);
+  color: white;
+  align-items: center;
+}
+#follow{
+  font-size: 25px;
+  line-height: 1.5;
+}
+.ending{
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  color: grey;
+  padding: 20px;
+}
+#endingicon{
+  margin-right: 30px;
+}
+
+#footerinfoheading:hover{
+
+  color: #eeb033;
+}
+.footerpara:hover{
+  color: #eeb033;
+}
+
+#time:hover{
+  color: #eeb033;
+}
+#privacy:hover{
+  color: #eeb033;
+}
+#title:hover{
+  color: #eca618;
+}
+#privacy:hover{
+color: #eeb033;
+}
+
+
+
+
+/* =========================================
+   CONTACT PAGE RESPONSIVE CSS
+   MAX WIDTH: 400px
+   ========================================= */
+
+@media screen and (max-width: 400px) {
+
+    /* ==============================
+       GLOBAL
+    ============================== */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+
+    /* ==============================
+       HEADER
+    ============================== */
+
+    .header {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .logo-icon {
+        width: 27px;
+        height: 27px;
+        font-size: 17px;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+        padding: 5px 6px;
+    }
+
+    .contact-info {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .phone-icon {
+        font-size: 20px;
+    }
+
+    .phone-number {
+        font-size: 14px;
+    }
+
+
+    /* ==============================
+       HERO
+    ============================== */
+
+    .hero {
+        width: 100%;
+        height: 280px;
+        padding-top: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .herocontent h1 {
+        font-size: 30px;
+    }
+
+    #heropara {
+        font-size: 15px;
+    }
+
+    .homehero {
+        font-size: 16px;
+    }
+
+
+    /* ==============================
+       UP ARROW
+    ============================== */
+
+    .upwardarrow {
+        position: fixed;
+        right: 15px;
+        bottom: 20px;
+        top: auto;
+
+        margin-left: 0;
+
+        width: 45px;
+        height: 45px;
+        padding: 13px;
+
+        z-index: 1000;
+    }
+
+
+    /* ==============================
+       BODY CONTENT
+    ============================== */
+
+    .bodycontent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    /* ==============================
+       GET IN TOUCH
+    ============================== */
+
+    .gettouch {
+        width: 100%;
+        height: auto;
+        padding: 25px 15px;
+    }
+
+    #gettouchheading {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    #touchpara {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+
+    /* ==============================
+       FORM LABELS
+    ============================== */
+
+    .labels {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    #firstlabel,
+    #secondlabel {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 12px;
+        width: 48%;
+    }
+
+
+    /* ==============================
+       FIRST + LAST NAME
+    ============================== */
+
+    .inputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+
+    #firstname,
+    #secondname {
+        width: 100% !important;
+        height: 48px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+
+    /* ==============================
+       MESSAGE
+    ============================== */
+
+    .yourmessage {
+        display: block;
+        margin-left: 15px !important;
+        font-size: 12px;
+    }
+
+    .textareaclass {
+        width: 100% !important;
+        height: 130px;
+        margin-left: 0 !important;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        padding: 15px;
+        resize: vertical;
+    }
+
+
+    /* ==============================
+       EMAIL
+    ============================== */
+
+    .emaillabels {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    #e-maillabel {
+        margin-left: 15px !important;
+        margin-right: 0 !important;
+        font-size: 12px;
+    }
+
+    .emailinputs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 0;
+    }
+
+    #email {
+        width: 100% !important;
+        height: 48px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    #sendmessage {
+        width: 100%;
+        height: 48px;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+
+    /* ==============================
+       SOCIAL INFORMATION
+    ============================== */
+
+    .socialinformation {
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        padding: 25px 25px 40px;
+    }
+
+    .socialinformation h2 {
+        font-size: 20px;
+    }
+
+    .socialinformation p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    #endingicon {
+        margin-right: 0;
+        display: flex;
+        gap: 18px;
+    }
+
+    #social {
+        font-size: 18px;
+    }
+
+    #phonenum {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #address {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+
+    /* ==============================
+       GOOGLE MAP
+    ============================== */
+
+    iframe {
+        width: 100% !important;
+        height: 300px !important;
+        display: block;
+    }
+
+
+    /* ==============================
+       FOOTER
+    ============================== */
+
+    .footer {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 0;
+        padding: 40px 20px;
+    }
+
+
+    /* ==============================
+       FOOTER BOX 1
+    ============================== */
+
+    .box1 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+    }
+
+    .footerpara {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-top: 15px;
+    }
+
+    .box1info {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+
+    /* ==============================
+       FOOTER BOX 2
+    ============================== */
+
+    .box2 {
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 0;
+        font-size: 28px;
+    }
+
+    #footerpoints {
+        font-size: 24px;
+    }
+
+    .openinghours {
+        font-size: 18px;
+        line-height: 2;
+        margin-top: 15px;
+    }
+
+    #time {
+        font-size: 14px;
+    }
+
+
+    /* ==============================
+       FOOTER BOX 3
+    ============================== */
+
+    .box3 {
+        width: 100%;
+        margin: 30px 0 0 0;
+        padding: 0;
+        font-size: 28px;
+    }
+
+    .newsform {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .box3 #email {
+        width: 40% ;
+        height: 45px;
+        margin: 0 ;
+        font-size: 15px;
+        padding: 10px 18px;
+    }
+
+    #subscribe {
+        width: 40%;
+        height: 45px;
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    #follow {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    #icons {
+        display: flex;
+        gap: 18px;
+    }
+
+
+    /* ==============================
+       COPYRIGHT
+    ============================== */
+
+    .ending {
+        width: 100%;
+        height: auto;
+        min-height: 90px;
+
+        padding: 20px 15px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 15px;
+        text-align: center;
+
+        font-size: 13px;
+    }
+
+    .ending #endingicon {
+        margin-right: 0;
+        display: flex;
+        gap: 15px;
+    }
+
+}
