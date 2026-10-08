@@ -316,7 +316,7 @@ span:hover{
    RESPONSIVE CSS — MAX WIDTH 400px
    ========================================= */
 
-@media screen and (max-width: 400px) {
+@media (min-width : 0px) and (max-width: 500px) {
 
   /* ---------- GLOBAL ---------- */
 

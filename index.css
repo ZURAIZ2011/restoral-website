@@ -263,7 +263,7 @@
 
 /* Mobile */
 
-@media (max-width: 400px) {
+@media (min-width : 0px) and (max-width: 500px) {
 
     .carousel {
         height: 350px;
@@ -727,7 +727,7 @@ span:hover{
    MOBILE RESPONSIVE CSS - MAX 400px
    ========================================= */
 
-@media screen and (max-width: 400px) {
+@media (min-width :0px) and (max-width: 500px) {
 
   /* ---------- GLOBAL ---------- */
 

@@ -535,16 +535,13 @@
 
 
 
-/* =========================================
+/* 
    RESPONSIVE ABOUT PAGE
-   MAX WIDTH: 400px
-   ========================================= */
+   MAX WIDTH: 400px */
 
-@media screen and (max-width: 400px) {
+@media (min-width : 0px) and (max-width: 500px) {
 
-  /* =========================
-       GLOBAL
-       ========================= */
+  /*  GLOBAL */
 
   * {
     box-sizing: border-box;
@@ -560,9 +557,7 @@
   }
 
 
-  /* =========================
-       HEADER
-       ========================= */
+  /* HEADER */
 
   .header {
     position: relative;
@@ -629,9 +624,7 @@
   }
 
 
-  /* =========================
-       HERO
-       ========================= */
+  /*  HERO */
 
   .hero {
     width: 100%;
@@ -660,9 +653,7 @@
   }
 
 
-  /* =========================
-       ABOUT RESTORAL SECTION
-       ========================= */
+  /*  ABOUT RESTORAL SECTION */
 
   .menuimg {
     width: 100%;
@@ -713,15 +704,15 @@
 
   .twenty{
     font-size: 28px;
-    margin-left: 30px;
+    margin-left: 12%;
   }
   .hundred{
     font-size: 28px;
-    margin-left: 70px;
+    margin-left: 24%;
   }
   .sixtyfour {
     font-size: 28px;
-    margin-left: 70px;
+    margin-left: 23%;
   }
 
 
@@ -747,10 +738,12 @@
     width: 33.33%;
     text-align: center;
   }
-
+.burgerssold{
+  margin-left: 2%;
+}
   .pizzamade,
   .clientseveryday {
-    margin-left: 0 !important;
+    margin-left: 10% !important;
   }
 
 
